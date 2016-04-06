@@ -9,7 +9,7 @@
 'use strict';
 
 import CONFIG from './config';
-import PAVBackend from './PAVBackend';
+import PAVBackend from 'lib/PAVBackend';
 
 
 export default function PavClient(token = null) {
