@@ -2,7 +2,7 @@
   "name": "pavclient",
   "version": "0.9.0",
   "description": "A client that connects to the place a vote backend server and acts as a javascript high level sdk for it.",
-  "main": "PavClient.js",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
