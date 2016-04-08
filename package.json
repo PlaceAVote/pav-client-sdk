@@ -1,6 +1,6 @@
 {
   "name": "pavclient",
-  "version": "0.9.1",
+  "version": "0.9.2",
   "description": "A client that connects to the place a vote backend server and acts as a javascript high level sdk for it.",
   "main": "index.js",
   "scripts": {
