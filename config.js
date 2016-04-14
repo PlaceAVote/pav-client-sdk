@@ -5,6 +5,7 @@ module.exports = {
       USER:{
         AUTHENTICATE_EMAIL: '/user/authenticate',
         SIGNUP: '/user',
+        SIGNUP_FACEBOOK: '/user/facebook',
         FORGOT_PASSWORD: '/password/reset'
       }
     }
