@@ -7,7 +7,8 @@ module.exports = {
         LOGIN_FACEBOOK: '/user/facebook/authenticate',
         SIGNUP: '/user',
         SIGNUP_FACEBOOK: '/user/facebook',
-        FORGOT_PASSWORD: '/password/reset'
+        FORGOT_PASSWORD: '/password/reset',
+        VALIDATE: "/user/validate"
       }
     }
   }
