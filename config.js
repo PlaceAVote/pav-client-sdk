@@ -1,6 +1,7 @@
 module.exports = {
   PAV_BACKEND: {
-    API_BASE_URL: 'https://apidev.placeavote.com',	//or api for prod
+    DEV_API_BASE_URL: 'https://apidev.placeavote.com',	//or api for prod
+    API_BASE_URL: 'https://api.placeavote.com',  //or api for prod
     ENDPOINTS: {
       USER:{
         LOGIN_EMAIL: '/user/authenticate',
@@ -8,7 +9,9 @@ module.exports = {
         SIGNUP: '/user',
         SIGNUP_FACEBOOK: '/user/facebook',
         FORGOT_PASSWORD: '/password/reset',
-        VALIDATE: "/user/validate"
+        VALIDATE: "/user/validate",
+        PROFILE: '/user/%s/profile',
+        TIMELINE: '/user/%s/timeline',
       }
     }
   }
