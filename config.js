@@ -12,6 +12,8 @@ module.exports = {
         VALIDATE: "/user/validate",
         PROFILE: '/user/%s/profile',
         TIMELINE: '/user/%s/timeline',
+        FOLLOW: "/user/follow",
+        UNFOLLOW: "/user/unfollow"
       }
     }
   }
