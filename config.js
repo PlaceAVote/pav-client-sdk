@@ -13,7 +13,8 @@ module.exports = {
         PROFILE: '/user/%s/profile',
         TIMELINE: '/user/%s/timeline',
         FOLLOW: "/user/follow",
-        UNFOLLOW: "/user/unfollow"
+        UNFOLLOW: "/user/unfollow",
+        FEED: "/user/feed"
       }
     }
   }
