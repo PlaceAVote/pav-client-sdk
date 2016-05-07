@@ -15,6 +15,12 @@ module.exports = {
         FOLLOW: "/user/follow",
         UNFOLLOW: "/user/unfollow",
         FEED: "/user/feed"
+      },
+      SEARCH: {
+        BILLS: "/search/bills"
+      },
+      BILLS:{
+        TRENDING: "/bills/trending"
       }
     }
   }
