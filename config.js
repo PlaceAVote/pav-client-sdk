@@ -20,7 +20,8 @@ module.exports = {
         BILLS: "/search/bills"
       },
       BILLS:{
-        TRENDING: "/bills/trending"
+        TRENDING: "/bills/trending",
+        GET_BILL: "/bills/%s"
       }
     }
   }
