@@ -21,7 +21,8 @@ module.exports = {
       },
       BILLS:{
         TRENDING: "/bills/trending",
-        GET_BILL: "/bills/%s"
+        GET_BILL: "/bills/%s",
+        GET_BILL_COMMENTS: "/bills/%s/comments",
       }
     }
   }
