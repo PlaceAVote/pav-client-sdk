@@ -23,6 +23,7 @@ module.exports = {
         TRENDING: "/bills/trending",
         GET_BILL: "/bills/%s",
         GET_BILL_COMMENTS: "/bills/%s/comments",
+        GET_BILL_TOP_COMMENTS: "/bills/%s/topcomments",
       }
     }
   }
