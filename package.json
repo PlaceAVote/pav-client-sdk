@@ -43,7 +43,8 @@
     "url": "https://github.com/PlaceAVote/pav-client-sdk/issues"
   },
   "dependencies": {
-    "underscore": "latest"
+    "underscore": "^1.8.3",
+    "assert":"^1.4.0"
   },
   "description": "A client that connects to the place a vote backend server and acts as a javascript high level sdk for it.",
   "devDependencies": {},
