@@ -29,5 +29,5 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/PlaceAVote/pav-client-sdk.git"
-  },
+  }
 }
