@@ -24,6 +24,8 @@ module.exports = {
         GET_BILL: "/bills/%s",
         GET_BILL_COMMENTS: "/bills/%s/comments",
         GET_BILL_TOP_COMMENTS: "/bills/%s/topcomments",
+        COMMENT_ON_BILL: "/bills/comments",
+        COMMENT_ON_COMMENT: "/comments/{comment_id}/reply",
       }
     }
   }
