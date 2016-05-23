@@ -1,6 +1,6 @@
 module.exports = {
   PAV_BACKEND: {
-    DEV_API_BASE_URL: 'https://apidev.placeavote.com',	//or api for prod
+    DEV_API_BASE_URL: 'https://apidev.placeavote.com',  //or api for prod
     API_BASE_URL: 'https://api.placeavote.com',  //or api for prod
     ENDPOINTS: {
       USER:{
@@ -25,7 +25,7 @@ module.exports = {
         GET_BILL_COMMENTS: "/bills/%s/comments",
         GET_BILL_TOP_COMMENTS: "/bills/%s/topcomments",
         COMMENT_ON_BILL: "/bills/comments",
-        COMMENT_ON_COMMENT: "/comments/{comment_id}/reply",
+        COMMENT_ON_COMMENT: "/comments/%s/reply",
       }
     }
   }
