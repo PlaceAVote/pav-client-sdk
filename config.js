@@ -26,6 +26,8 @@ module.exports = {
         GET_BILL_TOP_COMMENTS: "/bills/%s/topcomments",
         COMMENT_ON_BILL: "/bills/comments",
         COMMENT_ON_COMMENT: "/comments/%s/reply",
+        LIKE_ON_COMMENT: "/comments/%s/like",
+        DISLIKE_ON_COMMENT: "/comments/%s/dislike",
       }
     }
   }
