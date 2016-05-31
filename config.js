@@ -4,17 +4,25 @@ module.exports = {
     API_BASE_URL: 'https://api.placeavote.com',  //or api for prod
     ENDPOINTS: {
       USER:{
+        //Auth
         LOGIN_EMAIL: '/user/authenticate',
         LOGIN_FACEBOOK: '/user/facebook/authenticate',
         SIGNUP: '/user',
         SIGNUP_FACEBOOK: '/user/facebook',
         FORGOT_PASSWORD: '/password/reset',
         VALIDATE: "/user/validate",
+
+        //Profile
         PROFILE: '/user/%s/profile',
         TIMELINE: '/user/%s/timeline',
         FOLLOW: "/user/follow",
         UNFOLLOW: "/user/unfollow",
-        FEED: "/user/feed"
+
+        //Feed
+        FEED: "/user/feed",
+
+        //Issues
+        ISSUE_RESPONSE: "/user/issue/%s/response",
       },
       SEARCH: {
         BILLS: "/search/bills"
