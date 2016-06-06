@@ -11,6 +11,7 @@ module.exports = {
         SIGNUP_FACEBOOK: '/user/facebook',
         FORGOT_PASSWORD: '/password/reset',
         VALIDATE: "/user/validate",
+        VALIDATE_TOKEN: "/user/token/validate",
 
         //Profile
         PROFILE: '/user/%s/profile',
