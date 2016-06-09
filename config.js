@@ -37,6 +37,9 @@ module.exports = {
         COMMENT_ON_COMMENT: "/comments/%s/reply",
         LIKE_ON_COMMENT: "/comments/%s/like",
         DISLIKE_ON_COMMENT: "/comments/%s/dislike",
+      },
+      VOTE:{
+        VOTE_ON_BILL: "/vote"
       }
     }
   }
