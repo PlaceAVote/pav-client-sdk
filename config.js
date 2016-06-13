@@ -24,6 +24,9 @@ module.exports = {
 
         //Issues
         ISSUE_RESPONSE: "/user/issue/%s/response",
+
+        //Notifications
+        GET_NOTIFICATIONS: "/user/notifications",
       },
       SEARCH: {
         BILLS: "/search/bills"
