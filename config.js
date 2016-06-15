@@ -23,7 +23,9 @@ module.exports = {
         FEED: "/user/feed",
 
         //Issues
+        NEW_ISSUE: "/user/issue",
         ISSUE_RESPONSE: "/user/issue/%s/response",
+
 
         //Notifications
         GET_NOTIFICATIONS: "/user/notifications",
