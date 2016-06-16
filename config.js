@@ -31,7 +31,8 @@ module.exports = {
         GET_NOTIFICATIONS: "/user/notifications",
       },
       SEARCH: {
-        BILLS: "/search/bills"
+        BILLS_BY_TAG: "/search/bills",
+        BILLS_BY_TERM: "/search",
       },
       BILLS:{
         TRENDING: "/bills/trending",
