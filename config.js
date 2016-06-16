@@ -46,6 +46,9 @@ module.exports = {
       },
       VOTE:{
         VOTE_ON_BILL: "/vote"
+      },
+      UTILS:{
+        SCRAPE_URL: "/opengraph/scrape"
       }
     }
   }

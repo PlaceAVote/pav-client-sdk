@@ -121,3 +121,12 @@ In place of the `<aMethodName>` (when using the `voteApi`) you can call one of t
 | **voteOnBill** | {`vote`: bool - This represents wether the user is voting for or against a bill (**true** is for, **false** is against), `billId`: string - The bill we will be voting on |  Allows the user to cast a vote on a bill| {`data`: Object, `error`: Object} |
 
 
+
+
+####UtilsApi
+
+In place of the `<aMethodName>` (when using the `utilsApi`) you can call one of the methods below:
+
+| method | parameters (body) | Description | Returns|
+|---------------|-------------------------------------------------|--------------------------------------------------------------|-----|
+| **scrapeUrl** | {`url`: string - String - This should be a string the url that we will be scraping|  Scrapes the url provided to retrieve some basic info (an image, and a title being the most important ones) | {`data`: Object, `error`: Object} |
