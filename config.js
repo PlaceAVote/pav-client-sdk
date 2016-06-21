@@ -29,6 +29,10 @@ module.exports = {
 
         //Notifications
         GET_NOTIFICATIONS: "/user/notifications",
+
+        //Settings
+        SETTINGS: "/user/me/settings",
+
       },
       SEARCH: {
         BILLS_BY_TAG: "/search/bills",
