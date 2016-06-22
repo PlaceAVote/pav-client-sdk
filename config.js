@@ -32,6 +32,7 @@ module.exports = {
 
         //Settings
         SETTINGS: "/user/me/settings",
+        UPDATE_PROFILE_PHOTO: "/user/me/profile/image"
 
       },
       SEARCH: {

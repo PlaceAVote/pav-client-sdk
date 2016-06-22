@@ -85,7 +85,7 @@ In place of the `<aMethodName>` (when using the `userApi`) you can call one of t
 | **createNewIssue** | {`comment`: string, `billId`: (**optional**) string - We pass a bill id if we want to attach this issue to a bill,  `articleUrl`: (**optional**) string -  We pass an articleUrl if we want to attachi this issue to an article. } |  Creates a new issue that will show up on newsfeed data.| {`data`: Object, `error`: Object} |
 | **getSettings** | - |  Gets the current users account settings.| {`data`: Object, `error`: Object} |
 | **setSettings** | `email`: string, `firstName`: string,`lastName`: string,`gender`: string,`dob`: string,`city`: string,`zipcode`: string |  Sets the current users account settings.| {`data`: Object, `error`: Object} |
-
+| **updateProfilePhoto** | `imgData`: object - A base64 encoded user photo object (50x50 of type .jpeg or png. ) |  Sets a new profile photo for the current user.| {`data`: Object, `error`: Object} |
 
 
 
