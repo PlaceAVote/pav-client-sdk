@@ -29,6 +29,8 @@ module.exports = {
 
         //Notifications
         GET_NOTIFICATIONS: "/user/notifications",
+        MARK_NOTIFICATIONS_READ_ALL: "/user/notification/markall",
+        MARK_NOTIFICATIONS_READ_ONE: "/user/notification/%s/mark",
 
         //Settings
         SETTINGS: "/user/me/settings",
